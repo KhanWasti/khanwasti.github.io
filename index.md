@@ -5,7 +5,7 @@ My name is Wasti Khan and this is my website of recent projects
 <!-- Upload your own photo and change the path -->
 
 <p style="text-align:center;">
-  <img class="img-circle" src="https://github.com/KhanWasti/khanwasti.github.io/tree/master/images/logo.png" width="50%">
+  <img class="img-circle" src="https://github.com/KhanWasti/khanwasti.github.io/tree/master/images/logo.png" width="100%">
 </p>
 
 ---
