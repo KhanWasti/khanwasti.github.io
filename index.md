@@ -14,45 +14,42 @@ My name is Wasti Khan and this is my website of recent projects
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Natural language processing 10-Ks to identify risks](10k_nlp_covid)**_
+_**[Natural language processing 10-Ks to identify risks](analysis_report.ipynb)**_
 
-You can show off your midterm analysis by moving the report components and output into this file. Or...
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
+In this project we answer some questions about what types of firms were hurt more or less by covid. We use the firms' 10-Ks to find possible risks and convert them into measurements. We then use return data to see the correlation between our defined risk measures and firms' returns for key dates around the pandemic
+- download_text_files.ipynb does the following
+    - Downloads data on the S&P500 firms from wikipedia
+    - Creates a folder to store 10-Ks.
+    - Downloads 10-Ks for firms in the list using 
+        (1) Ticker symbol
+        (2) CIK
+- measure_risk.ipynb does the following:
+    - Defines 5 risk measures
+    - Uses near_regex() to find instances where terms defined in our risk measures occurs in each firms' 10-K
+    - Sums the value as the risk for each firm and adds it to the dataset
+- explore_ugly.ipynb does preliminary analysis that is used in the analysis report
+- The analysis_report.ipynb is a summary of our findings. 
+    - It amalgamates all the data we need
+    - Calculates weekly returns for key dates around the onset of the pandemic
+    - Discusses the econonomic reasoning behind our risk measures, why they were chosen and what they hope to capture
+    - Uses visualization techniques to explore the correlation between risk values and stock returns around key dates around the onset of the COVID-19 pandemic.
 ---
 
-_**[Regression Practice](Regression_practice)**_
+_**[Regression Interpretation](Regression_interpretation.md)**_
 
-Or: The process that created this page can be used to show off your whole midterm analysis file, as is.
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-_**[Eventual team project](https://donbowen.github.io/teamproject/)**_
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-_**[Some personal project](/pdf/sample_presentation.pdf)**_
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
 
 ## Career Objectives
 
-Write what you want. 
-
-Sell yourself!
+I am currently a senior year student at Lehigh studying Math, Finance and Data Science. I will be continuing at Lehigh as a MS in Financial Engineering candidate. I intend to work as a quantitative analyst in the future.
 
 ---
 
 ## Hobbies
 
-Maybe include a little about these, especially if they are the kinds of things that work well in interviews.
+I make music. You can listen here:<br>
+[Spotify](https://open.spotify.com/artist/3nqBuf8SD2i9PhMJjeOGGm)<br>
+[SoundCloud](https://soundcloud.com/wasti-farzan-khan/then-i-saw-you)<br>
+[A preview of a new project I am currently working on](https://soundcloud.com/wasti-farzan-khan/sept-10-5/s-zW49GxHfy1j?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
