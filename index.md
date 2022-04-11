@@ -5,7 +5,7 @@ Hi, my name is Wasti Khan and this is my website of recent projects
 <!-- Upload your own photo and change the path -->
 
 <p style="text-align:center;">
-  <img class="img-circle" src="/images/logo2.png" width="25%">
+  <img class="img-circle" src="/images/logo.png" width="25%">
 </p>
 
 ---
