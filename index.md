@@ -16,25 +16,9 @@ My name is Wasti Khan and this is my website of recent projects
 
 _**[Natural language processing 10-Ks to identify risks](analysis_report.ipynb)**_
 
-In this project we answer some questions about what types of firms were hurt more or less by covid. We use the firms' 10-Ks to find possible risks and convert them into measurements. We then use return data to see the correlation between our defined risk measures and firms' returns for key dates around the pandemic
-- download_text_files.ipynb does the following
-    - Downloads data on the S&P500 firms from wikipedia
-    - Creates a folder to store 10-Ks.
-    - Downloads 10-Ks for firms in the list using 
-        (1) Ticker symbol
-        (2) CIK
-- measure_risk.ipynb does the following:
-    - Defines 5 risk measures
-    - Uses near_regex() to find instances where terms defined in our risk measures occurs in each firms' 10-K
-    - Sums the value as the risk for each firm and adds it to the dataset
-- explore_ugly.ipynb does preliminary analysis that is used in the analysis report
-- The analysis_report.ipynb is a summary of our findings. 
-    - It amalgamates all the data we need
-    - Calculates weekly returns for key dates around the onset of the pandemic
-    - Discusses the econonomic reasoning behind our risk measures, why they were chosen and what they hope to capture
-    - Uses visualization techniques to explore the correlation between risk values and stock returns around key dates around the onset of the COVID-19 pandemic.
 ---
 
+_**[Analysis Report](analysis_report.md)**_<br>
 _**[Regression Interpretation](Regression_interpretation.md)**_
 
 

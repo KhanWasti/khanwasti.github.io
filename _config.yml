@@ -1,19 +1,15 @@
 title: Wasti Farzan Khan # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+logo: "/images/logo2.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Edit these links below   
-  <br>
-  in _config.yml 
+
   <br><br>
   <a href="https://www.linkedin.com/in/wasti-khan-22b577173/">LinkedIn</a> 
-  <br>
-  <a href="https://bowen.finance/cv/" class="btn btn--info">Resume</a>  
-  <br>
-  <a href="https://bowen.finance/" class="btn btn--info">Portfolio</a>  
   <br>
   <a href="https://www.GitHub.com/khanwasti/">GitHub</a>  
   <br>
   <a href="https://open.spotify.com/artist/3nqBuf8SD2i9PhMJjeOGGm">Spotify</a>  
+  <br>
+  <a href="https://soundcloud.com/wasti-farzan-khan">SoundCloud</a>  
   <br>
   
 theme: jekyll-theme-minimal
