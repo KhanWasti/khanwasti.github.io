@@ -1,23 +1,5 @@
-# THIS FILE IS IN THE HANDOUTS FOLDER. COPY IT INTO YOUR CLASS NOTES
-
-- [**Read the chapter on the website!**](https://ledatascifi.github.io/ledatascifi-2022/content/05/02_reg.html) It contains a lot of extra information we won't cover in class extensively.
-- After reading that, I recommend [this webpage as a complimentary place to get additional intuition.](https://aeturrell.github.io/coding-for-economists/econmt-regression.html)
-
-## Today
-
-[Finish picking teams and declare initial project interests in the project sheet](https://docs.google.com/spreadsheets/d/1A6oQfhTBHHEb_EWSgfQv2KgsBoZm4V_BQWuvTjxnrdo/edit#gid=1508330834)
-
-
-# Today is mostly about INTERPRETING COEFFICIENTS (5.2.4 in the book)
-
-1. 25 min reading groups: Talk/read through two regression pages (5.2.3 and 5.2.4) 
-    - Assemble your own notes. Perhaps in the "Module 4 notes" file, but you can do this in any file you want.
-    - After class, each group will email their notes to Julio/me for participation. (Effort grading.)
-1. 10 min: class builds joint "big takeaways and nuanced observations" 
-1. 5 min: Interpret models 1-2 as class as practice. 
-1. 20 min reading groups: Work through remaining problems below.
-1. 10 min: wrap up  
-
+---
+layout: wide_default
 ---
 
 
